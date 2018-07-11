@@ -7,6 +7,7 @@ class App < Sinatra::Base
   end
   
   get '/team' do
+    binding.pry
     erb :team
   end
   
